@@ -1,0 +1,70 @@
+* {
+    font-family: Work Sans;
+}
+
+header {
+    width: 80%;
+    margin: 5% auto;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5%;
+    gap: 20px;
+}
+
+.nav-section {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.G {
+    color: #ff42a5;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+nav ul li,
+a {
+    text-decoration: none;
+    list-style-type: none;
+    color: #3C354F;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.icon-li {
+    display: flex;
+    justify-content: center;
+    width: 262px;
+    height: 56px;
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    align-items: center;
+    gap: 10px;
+}
+
+.fa-youtube {
+    color: #F61C0D;
+}
+
+.fa-tiktok {
+    color: black;
+}
+
+nav ul li a:hover {
+    cursor: pointer;
+    color: #ff42a5;
+}
+
+.icon-li:hover {
+    cursor: pointer;
+    color: #ff42a5;
+}
